@@ -9,7 +9,8 @@
 
 body {
   text-align: center;
-  background-color: rgb(238, 238, 238);
+  background: linear-gradient(#202f61,#15092c);
+  color: white
 }
 
 #banner {
@@ -23,7 +24,6 @@ body {
   .banner-text{
     background-color: rgba(255, 255, 255, 0.623);
     display: inline-block;
-    padding: 20px;
     font-family: 'Allison', cursive;
     font-size: 30px;
     color: rgb(56, 73, 87);
@@ -34,4 +34,25 @@ main {
   padding: 10px;
   font-family: 'Nunito', sans-serif;
   font-size: 22px;
+}
+
+.video{
+  padding: 30px;
+}
+
+ol li {
+  padding: 20px;
+}
+
+a{
+  font-family: Georgia, 'Times New Roman', serif;
+  color: white;
+}
+
+/*----Responsivo------------------------------------------*/
+@media (min-width: 460px){
+  header{
+    flex-direction: columns;
+  }
+  
 }
